@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Warcraft Professions</title>
+</head>
+<body>
+<div class="header-container" th:fragment="contentHeader">
+    <nav>
+        <ul>
+            <li><a href="#blacksmithing">Кузнечное дело</a></li>
+            <li><a href="#alchemy">Алхимия</a></li>
+            <li><a href="#herbalism">Травничество</a></li>
+            <li><a href="#enchanting">Зачарование</a></li>
+            <li><a href="#engineering">Инженерное дело</a></li>
+            <li><a href="#jewelcrafting">Ювелирное дело</a></li>
+            <li><a href="#leatherworking">Кожевничество</a></li>
+            <li><a href="#mining">Горное дело</a></li>
+            <li><a href="#tailoring">Портняжное дело</a></li>
+            <li><a href="#fishing">Рыбная ловля</a></li>
+            <li><a href="#cooking">Кулинария</a></li>
+            <li><a href="#firstaid">Первая помощь</a></li>
+        </ul>
+    </nav>
+</div>
+
+<main th:fragment="content">
+    <section id="blacksmithing" class="profession">
+        <h2>Кузнечное дело</h2>
+        <p><strong>Кузнецы</strong> - мастера, способные создавать мощное оружие и броню из металлов. Они могут
+            создавать различные предметы, такие как мечи, щиты и доспехи.</p>
+        <p><strong>Ключевые материалы:</strong> Железо, Сталь, Мифрил.</p>
+    </section>
+
+    <section id="alchemy" class="profession">
+        <h2>Алхимия</h2>
+        <p><strong>Алхимики</strong> могут создавать зелья и эликсиры, которые дают временные бонусы, восстанавливают
+            здоровье или увеличивают силу.</p>
+        <p><strong>Ключевые материалы:</strong> Травы, минералы, животные компоненты.</p>
+    </section>
+
+    <section id="herbalism" class="profession">
+        <h2>Травничество</h2>
+        <p><strong>Травники</strong> собирают растения, которые используются в алхимии и других ремеслах. Это важная
+            профессия для получения ресурсов.</p>
+        <p><strong>Ключевые материалы:</strong> Листья, корни, цветы.</p>
+    </section>
+
+    <section id="enchanting" class="profession">
+        <h2>Зачарование</h2>
+        <p><strong>Зачарователи</strong> могут улучшать предметы, добавляя им магические свойства. Это может увеличить
+            характеристики предметов и повысить их эффективность в бою.</p>
+        <p><strong>Ключевые материалы:</strong> Камни чар, материалы из уничтоженных предметов.</p>
+    </section>
+
+    <section id="engineering" class="profession">
+        <h2>Инженерное дело</h2>
+        <p><strong>Инженеры</strong> создают механизмы и устройства, такие как бомбы, полезные инструменты и
+            механические питомцы.</p>
+        <p><strong>Ключевые материалы:</strong> Металлы, механизмы, нефрит.</p>
+    </section>
+
+    <section id="jewelcrafting" class="profession">
+        <h2>Ювелирное дело</h2>
+        <p><strong>Ювелиры</strong> создают украшения и артефакты, которые могут значительно улучшить характеристики
+            персонажа.</p>
+        <p><strong>Ключевые материалы:</strong> Драгоценные камни, металлы.</p>
+    </section>
+
+    <section id="leatherworking" class="profession">
+        <h2>Кожевничество</h2>
+        <p><strong>Кожевники</strong> изготавливают кожаные доспехи и другие предметы, которые обеспечивают защиту и
+            полезные эффекты.</p>
+        <p><strong>Ключевые материалы:</strong> Кожа, шкуры.</p>
+    </section>
+
+    <section id="mining" class="profession">
+        <h2>Горное дело</h2>
+        <p><strong>Горняки</strong> добывают минералы и руды, которые используются в кузнечном деле и инженерии.</p>
+        <p><strong>Ключевые материалы:</strong> Железная руда, медь, золото.</p>
+    </section>
+
+    <section id="tailoring" class="profession">
+        <h2>Портняжное дело</h2>
+        <p><strong>Портные</strong> создают одежду, сумки и текстильные изделия, которые полезны для персонажей.</p>
+        <p><strong>Ключевые материалы:</strong> Ткани, волокна.</p>
+    </section>
+
+    <section id="fishing" class="profession">
+        <h2>Рыбная ловля</h2>
+        <p><strong>Рыбаки</strong> ловят рыбу и морепродукты, которые могут использоваться в кулинарии и квестах.</p>
+        <p><strong>Ключевые материалы:</strong> Разнообразная рыба, ракушки.</p>
+    </section>
+
+    <section id="cooking" class="profession">
+        <h2>Кулинария</h2>
+        <p><strong>Кулинары</strong> готовят еду, которая восстанавливает здоровье и дает временные бонусы.</p>
+        <p><strong>Ключевые материалы:</strong> Мясо, овощи, специи.</p>
+    </section>
+
+    <section id="firstaid" class="profession">
+        <h2>Первая помощь</h2>
+        <p><strong>Специалисты по первой помощи</strong> лечат раненых с помощью бинтов и медицинских средств.</p>
+        <p><strong>Ключевые материалы:</strong> Бинты, травы.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 World of Warcraft Professions.</p>
+</footer>
+</body>
+</html>
